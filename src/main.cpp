@@ -54,4 +54,5 @@ void loop() {
     displayLoop(message, hora, data.temperature, data.humidity); // Paso 5. Muestra en la pantalla el mensaje recibido, las medidas de temperatura y humedad
     sendSensorData(data.temperature, data.humidity);             // Paso 6. Envía los datos de temperatura y humedad al servidor MQTT
   }   
+  
 }

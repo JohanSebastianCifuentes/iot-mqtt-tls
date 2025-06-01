@@ -39,15 +39,15 @@
 #define COUNTRY "colombia"                        ///< País donde se encuentra el dispositivo
 #define STATE "valle"                             ///< Estado donde se encuentra el dispositivo
 #define CITY "tulua"                              ///< Ciudad donde se encuentra el dispositivo
-#define MQTT_SERVER "uceva-iot-core.freeddns.org"         ///< Servidor MQTT
+#define MQTT_SERVER "wearefully.loseyourip.com"         ///< Servidor MQTT
 #define MQTT_PORT 8883                            ///< Puerto seguro (TLS)
 #define MQTT_USER "admin"                       ///< Usuario MQTT no adninistrador 
 #define MQTT_PASSWORD "admin1234"                  ///< Contraseña del usuario MQTT
 
 // Variables de configuración de la red WiFi
 // Cambia estos valores por los de su red WiFi
-#define SSID "MAXELL_2.4_F2F"                     ///< Cambia por el nombre de tu red WiFi
-#define PASSWORD "a1b2c3d4"                       ///< Cambia por la contraseña de tu red WiFi
+#define SSID "NATALY"                     ///< Cambia por el nombre de tu red WiFi
+#define PASSWORD "Aquiles1609"                       ///< Cambia por la contraseña de tu red WiFi
 
 // Cambia al certificado del broker: Certificado raíz de Let's Encrypt (ISRG Root X1) en formato PEM
 const char* root_ca = \
